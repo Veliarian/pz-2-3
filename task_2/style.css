@@ -1,0 +1,31 @@
+body {
+    width: 100vw;
+    height: 100vH;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 50%;
+    height: 20%;
+    font-family: Hack, serif;
+    font-size: 50pt;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid green;
+    background-color: greenyellow;
+}
+
+button:hover {
+    animation: 0.8s infinite alternate jump;
+}
+
+@keyframes jump {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
